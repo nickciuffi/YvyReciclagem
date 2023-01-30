@@ -1,0 +1,334 @@
+/*========== COR DA SELEÇÃO DE TEXTO ==========*/
+::selection {
+    color: white;
+    background-color: var(--verde-escuro);
+}
+
+/*========== ESTILIZAÇÃO DA BARRA DE SCROLL ==========*/
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--verde-escuro);
+    border-radius: 20px;
+    border: 2px solid rgb(240, 240, 240);
+}
+
+/*========== ESTILIZAÇÃO DA PÁGINA (MOBILE) ==========*/
+/*--- parte inicial (imagens) ---*/
+.conteudo-contato {
+    margin-top: 80.5px;
+}
+
+.img-titulo {
+    background-image: url(../img/fundo-contato.jpg);
+}
+
+/*--- estilização do texto ---*/
+.conteudo-contato h1 {
+    font-size: 20px;
+    color: var(--verde-escuro);
+    font-family: "Bree serif";
+    font-weight: 400;
+    text-align: center;
+}
+
+.conteudo-contato h2 {
+    margin-top: -10px;
+    font-size: 16px;
+    font-family: "breelight";
+    font-weight: 400;
+    text-align: center;
+    color: #706B66;
+}
+
+/*--- estilização dos ícones ---*/
+.icones-vd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones-vd img {
+    margin-top: 25px;
+    max-width: 100%;
+}
+
+/*--- estilização do formulário de contato ---*/
+
+.modal {
+    max-height: 90%;
+}
+
+::placeholder {
+    color: #8D8D8D;
+}
+
+.form-logo {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.last-contact {
+    margin-bottom: 50px;
+}
+
+.form-contato {
+    border-radius: 8px;
+}
+
+.comercial {
+    border: 3px double var(--azul-escuro);
+}
+
+.trabalhe-conosco {
+    border: 3px double var(--verde-escuro);
+}
+
+.ouvidoria {
+    border: 3px double var(--laranja);
+}
+
+.txt-ouvidoria {
+    font-family: "breelight";
+    color: var(--laranja);
+}
+
+.header-ouvidoria {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contato h4 {
+    font-size: 18px;
+    color: var(--verde-escuro);
+    font-family: "Bree serif";
+}
+
+.txt-area {
+    min-height: 100px;
+    border-bottom: 1px solid #9E9E9E;
+    margin-bottom: 15px;
+}
+
+
+.txt-area::-webkit-scrollbar {
+    width: 15px;
+}
+
+.txt-area::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+}
+
+.txt-area::-webkit-scrollbar-thumb {
+    background-color: var(--verde-escuro);
+    border-radius: 20px;
+    border: 2px solid rgb(240, 240, 240);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.anexo {
+    margin: 20px 0;
+}
+
+label {
+    color: var(--verde-escuro);
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid var(--verde-escuro);
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label:hover {
+    color: #FFF;
+    border: #FFF;
+    background-color: var(--verde-escuro);
+    transition-duration: 0.5s;
+}
+
+.btn-enviar {
+    display: flex;
+    justify-content: center;
+}
+
+.enviar-1,
+.enviar-2,
+.enviar-3 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    font-weight: 500;
+}
+
+.enviar-1 {
+    border: 1px solid var(--azul-escuro);
+    color: var(--azul-escuro);
+    cursor: pointer;
+}
+
+.enviar-2 {
+    border: 1px solid var(--verde-escuro);
+    color: var(--verde-escuro);
+    cursor: pointer;
+}
+
+.enviar-3 {
+    border: 1px solid var(--laranja);
+    color: var(--laranja);
+    cursor: pointer;
+}
+
+.row {
+    margin-bottom: unset;
+}
+
+.links-nav {
+    margin-bottom: 10px;
+}
+
+.enviar-1:hover {
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: var(--azul-escuro);
+    transition-duration: 0.5s;
+}
+
+.enviar-2:hover {
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: var(--verde-escuro);
+    transition-duration: 0.5s;
+}
+
+.enviar-3:hover {
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: var(--laranja);
+    transition-duration: 0.5s;
+}
+
+
+.enviar:hover,
+.apresentacao a:hover {
+    background-color: var(--verde-escuro);
+    color: #FAFAFA;
+    transition-duration: 0.5s;
+}
+
+.outros-contatos {
+    padding: 0 25px;
+}
+
+/*--- estilização do mapa ---*/
+.mapinha {
+    background-color: #6B6B6B;
+}
+
+.mapinha iframe {
+    margin-left: 0.5%;
+}
+
+.mapinha h6 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: 'breelight';
+    padding-bottom: 10px;
+}
+
+/*--- estilização da seção com a apresentação ---*/
+.apresentacao {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apresentacao p {
+    font-family: 'breelight';
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.apresentacao a {
+    border-radius: 100px;
+    border: 1px solid var(--verde-escuro);
+    padding: 10px 16px;
+    color: var(--verde-escuro);
+    font-weight: 500;
+    margin: 20px;
+}
+
+/*========== PARA TABLETS ==========*/
+@media (min-width: 600px) {
+
+    .img-titulo img {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .conteudo-contato h1 {
+        font-size: 30px;
+    }
+
+    .icones-vd {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .icones-vd img {
+        max-width: 90%;
+    }
+
+    .last-contact {
+        margin-bottom: 0px;
+    }
+
+    .header-ouvidoria {
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 700px) {
+    .anexo {
+        display: block;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 14px;
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+    }
+}

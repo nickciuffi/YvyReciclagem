@@ -1,0 +1,265 @@
+
+/*========== COR DA SELEÇÃO DE TEXTO ==========*/
+::selection {
+    background-color: var(--azul-claro);
+    color: white;
+}
+
+
+/*========== ESTILIZAÇÃO DA BARRA DE SCROLL ==========*/
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--azul-claro);
+    border-radius: 20px;
+    border: 2px solid rgb(240, 240, 240);
+}
+
+/*========== ESTILIZAÇÃO DA PÁGINA (MOBILE) ==========*/
+.pagina{
+    margin-top: 80.5px;
+}
+.img-titulo {
+    background-image: url(../img/fundo-sobre.jpg);
+    display: flex;
+    padding: 0px 20px;
+    justify-content: flex-end;
+}
+
+.titulo {
+    font-size: 20px;
+    color: var(--azul-claro);
+    font-family: "Bree serif";
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    
+}
+.titulo-inicial{
+    max-width: 835px;
+    line-height: 1.3;
+}
+.titulo-comeco{
+    padding: 0px 5.555%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto-inicial{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'breelight';
+    color: #747474;
+    margin-top: 37px;
+    font-weight: 400;
+    line-height: 1.6;
+margin-bottom: 42px;
+max-width: 815px;
+}
+.fundo-azul{
+    background-image: url("../img/fundo-azul-sobre.jpg");
+    padding: 28px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt-fundo-azul{
+    font-family: 'Bree Serif';
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 800px;
+}
+.ciclo-reciclagem{
+    padding: 4px 5.555% 54px 5.555%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-ciclo{
+    margin-top: 47px;
+}
+.img-azul2{
+    height: 124px;
+    background-image: url("../img/fundo-azul2-sobre.jpg");
+}
+
+.conteudo-fundo-azul2{
+    padding: 50px;
+    color: white;
+    }
+.texto-azul2{
+    font-family: 'breelight';
+    font-size: 16px;
+    line-height: 1.6;
+     padding: 20px 8.1944% 20px 8.1944%;
+   
+}
+.span-azul{
+    font-weight: 700;
+    font-family: 'breelight';
+    font-size: 16px;
+    line-height: 1.6;
+}
+.titulo-azul2{
+    margin-top: 39px;
+    padding: 0px 8.1944%;
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.fundo-azul2{
+    background-color: var(--azul-claro);
+   
+}
+.conteudo-fora{
+    max-width: 890px;
+   
+}
+.sem-margin{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.sociedade{
+    padding: 41px 20px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-valor{
+    margin-top: 35px;
+    width: 70%;
+}
+.texto-cinza{
+    font-size: 20px;
+    font-family: "Bree serif";
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    color: #878787;
+    margin-top: 30px;
+    margin-bottom: 36px;
+}
+.conteudo-valor{
+    width: 100%;
+    max-width: 1120px;
+}
+.valor{
+    padding: 0px 9.5px 20px;
+}
+.economico h2{
+    color: var(--azul-claro);
+}
+.ambiental h2{
+    color: #058b0e;
+}
+.social h2{
+    color: #ff9900;
+}
+.titulo-valor{
+    margin-top: 0%;
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-family: "Bree serif";
+}
+.texto-valor{
+    color: #5b5b5b;
+    font-size: 16px;
+    font-family: "breelight";
+    font-weight: 400;
+    line-height: 1.6;
+}
+.divisoria{
+    margin: 20px 0px;
+}
+.logica-reversa{
+    padding: 30px 20px 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt-logica{
+    margin-top: 34px;
+    max-width: 800px;
+    font-size: 16px;
+    font-family: "breelight";
+    color: #404040;
+    line-height: 1.6;
+    text-align: center;
+}
+.img-residuos{
+    width: 80%;
+    max-width: 550px;
+    margin-top: 38px;
+}
+/*Css para tablet e desktop*/
+@media(min-width: 600px){
+    .titulo-inicial{
+        font-size: 30px;
+    }
+    .titulo-comeco{
+        padding: 0% 20px;
+    }
+    .txt-fundo-azul{
+       
+        font-size: 30px;
+     
+    }
+    .ciclo-reciclagem{
+        padding: 4px 20px 54px 20px;
+    }
+.img-azul2{
+   
+    height: 304px;
+}
+.fundo-azul{
+    background-image: url("../img/fundo-azul-sobre.jpg");
+    padding: 75px 20px;
+}
+.titulo-azul2{
+    font-size: 30px
+}
+.sem-margin{
+    font-size: 30px;
+}
+.conteudo-fundo-azul2{
+    height: 100%;
+}
+.img-valor{
+    width: 450px;
+}
+.texto-cinza{
+    font-size: 25px;
+  
+}
+.titulo-ciclo{
+    font-size: 30px;
+}
+
+}
+@media(min-width:992px){
+    .conteudo-fundo-azul2{
+      
+        max-width: 425px;
+        }
+        .margin-top{
+            margin-top: 25px;
+        }
+        .texto-azul2{
+          max-width: 385px;
+             padding: 20px 0px 20px 0px;
+           
+        }
+        .titulo-azul2{
+           
+            padding: 0px 0%;
+           
+        }
+}

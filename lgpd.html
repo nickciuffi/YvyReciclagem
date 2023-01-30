@@ -1,0 +1,34 @@
+<div class="fundo-lgpd">
+
+    <p>
+        Bem vindo! Para podermos apresentar o nosso site da melhor forma possível, utilizamos cookies.<br> Para saber
+        mais, acesse nossa
+        <a href="politica-de-privacidade.html">Política de privacidade</a>
+    </p>
+    <button id="btn-concordar" type="button">Concordo</button>
+</div>
+
+<script>
+    $(document).ready(function () {
+        if (localStorage.getItem("aparencia") == "") {
+            aparece();
+        }
+        if (localStorage.getItem("aparencia") == "1") {
+            some();
+        }
+    })
+    $("#btn-concordar").click(function () {
+        localStorage.setItem('aparencia', '1');
+        some();
+    });
+
+    function aparece() {
+
+        $(".fundo-lgpd").show();
+
+    }
+
+    function some() {
+        $(".fundo-lgpd").hide();
+    }
+</script>

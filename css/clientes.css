@@ -1,0 +1,202 @@
+
+/*========== COR DA SELEÇÃO DE TEXTO ==========*/
+::selection {
+    color: white;
+    background-color: var(--amarelo);
+}
+
+/*========== ESTILIZAÇÃO DA BARRA DE SCROLL ==========*/
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--amarelo);
+    border-radius: 20px;
+    border: 2px solid rgb(240, 240, 240);
+}
+
+/*========== ESTILIZAÇÃO DA PÁGINA (MOBILE) ==========*/
+/*--- parte inicial (imagens) ---*/
+.conteudo-clientes {
+    margin-top: 80.5px;
+}
+
+.img-titulo {
+    background-image: url(../img/fundo-clientes.png);
+}
+
+/*--- estilização do texto ---*/
+.conteudo-clientes h1 {
+    font-size: 20px;
+    color: var(--amarelo);
+    font-family: "Bree serif";
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    padding: 0 4% 5% 4%;
+}
+
+.conteudo-clientes h2 {
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: "breelight";
+    font-weight: 400;
+    text-align: center;
+    color: #706B66;
+    line-height: 20px;
+    padding: 0 10%;
+}
+
+/*--- estilização dos ícones ---*/
+.icones-am {
+    background-color: #FFD531;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/*--- intro para as embalagens ---*/
+.titulo-portifolio {
+    padding: 20px;
+}
+
+.produtos {
+    margin: 5% 0;
+}
+
+/*--- estilização das imagens de embalagens ---*/
+.embalagens {
+    margin-bottom: 50px;
+}
+
+.embalagens strong {
+    font-size: 16px;
+    font-family: "breelight";
+    font-weight: 600;
+}
+
+.img-embalagens-1,
+.img-embalagens-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-embalagens-1 img,
+.img-embalagens-2 img {
+    padding: 20px;
+}
+
+/*--- div para entrar em contato ---*/
+.entre-em-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E99C00;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.entre-em-contato h1 {
+    margin-top: 20px;
+    color: #FFF;
+}
+
+.entre-em-contato h2 {
+    color: #FFF;
+    line-height: 25px;
+}
+
+.entre-em-contato a {
+    background-color: #FFF;
+    padding: 8px 30px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: var(--laranja);
+}
+
+.entre-em-contato a:hover {
+    background-color: #e7e7e7;
+}
+
+/*========== PARA TABLETS ==========*/
+@media (min-width: 600px) {
+
+
+    .conteudo-clientes h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .conteudo-clientes h2 {
+        padding: 0 20.5%;
+    }
+
+    .icones-am {
+        background: linear-gradient(to right, #FFD531, #FFB532);
+    }
+
+    .img-embalagens-1,
+    .img-embalagens-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+/*========== PARA DESKTOPS ==========*/
+@media (min-width: 1000px) {
+    .img-titulo img {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .titulo-inicial {
+        margin-bottom: 55px;
+    }
+
+    .conteudo-clientes h1 {
+        padding: 0 20%;
+        line-height: 40px;
+    }
+
+    .icones-am {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo-clientes .titulo-inicial h2 {
+        padding: 1% 20%;
+        line-height: 25px;
+    }
+}
+
+/*========== PARA TELAS GRANDES ==========*/
+@media (min-width: 1800px) {
+
+    .conteudo-clientes h1 {
+        padding: 0 27%;
+        line-height: 40px;
+    }
+
+    .conteudo-clientes .titulo-inicial h2 {
+        padding: 1% 30%;
+        line-height: 25px;
+    }
+}

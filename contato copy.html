@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Escolha o canal de sua preferência e entre em contato com Yvy Reciclagem. Rua Flor de Maio, 656 - Quinta da Boa Vista. CEP 08597-610 - Itaquaquecetuba/SP">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <title>Fale Conosco - Contato Yvy Reciclagem</title>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!--Import Icons-->
+    <script src="https://kit.fontawesome.com/876f80b0f5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import CSS-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/global.css" />
+    <link type="text/css" rel="stylesheet" href="css/topbar.css" />
+    <link type="text/css" rel="stylesheet" href="css/footer.css" />
+    <link type="text/css" rel="stylesheet" href="css/contato.css">
+    <link type="text/css" rel="stylesheet" href="css/lgpd.css">
+
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ADOPT -->
+    <meta name="adopt-website-id" content="6c611909-8658-4cb4-8681-6f4e0ac88171" />
+    <script src="//tag.goadopt.io/injector.js?website_code=6c611909-8658-4cb4-8681-6f4e0ac88171" class="adopt-injector">
+    </script>
+    <script>
+        window.adoptHideAfterConsent = true;
+    </script>
+
+</head>
+
+<body>
+    <!--Div que armazena o cabeçalho-->
+    <div class="header"></div>
+
+    <!--Div que inclui o botão de whatsapp-->
+    <div class="whats"></div>
+
+    <div class="conteudo-contato">
+        <!----- PARTE INICIAL ------>
+        <div class="img-titulo">
+            <img src="img/titulo-contato.png" alt="Entre em contato com a Yvy">
+        </div>
+        <!----- TÍTULOS ------>
+        <h1>Escolha o canal de sua preferência</h1>
+        <h2>Teremos o maior prazer em falar com você</h2>
+
+        <!----- ÍCONES ------>
+        <div class="icones-vd">
+
+            <!--------- CONTATO COMERCIAL --------->
+            <a class="modal-trigger" href="#modal1">
+                <img src="img/form-comercial.png" alt="Contato - Comercial">
+            </a>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal form-contato comercial">
+                <div class="modal-content">
+                    <div class="form-logo">
+                        <img src="img/form-comercial.png" alt="Contato - Comercial">
+                    </div>
+
+                    <form action="php/envia.php" method="POST">
+
+                        <input class="field" name="nome" type="text" placeholder="Nome" required>
+
+                        <input class="field" name="email" type="email" placeholder="E-mail" required>
+
+                        <input class="field" name="assunto" type="text" placeholder="Assunto" required>
+
+                        <textarea class="txt-area" name="mensagem" id="mensagem" rows="20"
+                            placeholder="Digite sua mensagem" required></textarea>
+
+                        <div class="btn-enviar">
+                            <input class="enviar-1" type="submit" value="Enviar">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <!----------- CONTATO TRABALHE CONOSCO ---------->
+            <a class="modal-trigger" href="#modal2">
+                <img src="img/form-trabalhe.png" alt="Contato - Trabalhe conosco">
+            </a>
+            <!-- Modal Structure -->
+            <div id="modal2" class="modal form-contato trabalhe-conosco">
+                <div class="modal-content">
+                    <div class="form-logo">
+                        <img src="img/form-trabalhe.png" alt="Contato - Trabalhe conosco">
+                    </div>
+
+                    <form action="php/envia-anexo.php" method="POST">
+
+                        <input class="field" name="nome" id="nome" type="text" placeholder="Nome" required>
+
+                        <input class="field" name="replyto" id="replyto" type="email" placeholder="E-mail" required>
+
+                        <input class="field" name="assunto" id="assunto" type="text" placeholder="Assunto" required>
+
+                        <div class="anexo">
+                            <!-- PDF ou imagem (opcional)-->
+                            <label class="anexo" for="arquivo">Anexo - em manutenção</label>
+                            <input name="arquivo" id="arquivo" type="file"
+                                accept="application/pdf, image/jpeg, image/png">
+                        </div>
+
+                        <textarea class="txt-area" name="mensagem" id="mensagem" rows="20"
+                            placeholder="Digite sua mensagem"></textarea>
+
+                        <div class="btn-enviar">
+                            <input class="enviar-2" type="submit" value="Enviar" required>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <!----------- CONTATO OUVIDORIA ------------>
+            <a class="modal-trigger last-contact" href="#modal3">
+                <img src="img/form-ouvidoria.png" alt="Contato - Ouvidoria">
+            </a>
+            <!-- Modal Structure -->
+            <div id="modal3" class="modal form-contato ouvidoria">
+                <div class="modal-content">
+                    <div class="header-ouvidoria">
+                        <img src="img/form-ouvidoria.png" alt="Contato - Ouvidoria">
+                        <p class="txt-ouvidoria">Você pode utilizar este canal para informar desvios éticos e outros
+                            problemas que possam haver com relação a Yvy.
+                            A comunicação pode ser anônima. Você decide se quer ou não se identificar</p>
+                    </div>
+
+                    <form action="php/envia3.php" method="POST">
+
+                        <input class="field" name="nome" type="text" placeholder="Nome (opcional)">
+
+                        <input class="field" name="email" type="email" placeholder="E-mail (opcional)">
+
+                        <input class="field" name="assunto" type="text" placeholder="Assunto" required>
+
+                        <textarea class="txt-area" name="mensagem" id="mensagem" rows="20"
+                            placeholder="Digite sua mensagem" required></textarea>
+
+                        <div class="btn-enviar">
+                            <input class="enviar-3" type="submit" value="Enviar">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="outros-contatos">você também pode entrar em contato direto com a gente </h2>
+
+        <div class="icones-vd">
+            <!-- Link para whatsapp -->
+            <a href="https://wa.me/5511947034343?text=Olá! Estou navegando no site e gostaria de entrar em contato.">
+                <img src="img/ico-whats.png" alt="Contato - WhatsApp">
+            </a>
+
+            <!-- Telefone -->
+            <a href="#" class="last-contact">
+                <img src="img/ico-phone.png" alt="Contato - Telefone">
+            </a>
+        </div>
+
+        <!----- MAPA DO GOOGLE MAPS ------>
+        <div class="mapinha">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3660.0568434511943!2d-46.326846!3d-23.458414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7cf51cbac745%3A0x9aece35df98f0060!2sR.%20Fl%C3%B4r%20de%20Maio%2C%20656%20-%20Q.ta%20da%20Boa%20Vista%20(Residencial)%2C%20Itaquaquecetuba%20-%20SP%2C%2008597-610!5e0!3m2!1spt-BR!2sbr!4v1622482380919!5m2!1spt-BR!2sbr"
+                width="99%" height="450" allowfullscreen="" loading="lazy"></iframe>
+            <h6>Rua Flor de Maio, 656 - Quinta da Boa Vista - CEP 08597-610 - Itaquaquecetuba - SP</h6>
+        </div>
+
+        <!----- APRESENTAÇÃO PDF ------>
+        <div class="apresentacao">
+            <img src="img/mock.png" alt="Apresentação PDF Yvy">
+            <p>Faça o download da nossa apresentação institucional</p>
+            <a download href="img/yvy.pdf">
+                APRESENTAÇÃO PDF
+            </a>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="footer"></div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Carrega o cabeçalho dentro da div
+            $(".header").load("header.html");
+            //Carrega o whatsapp dentro da div
+            $(".whats").load("whats.html");
+            //Carrega o whatsapp dentro da div
+            $(".lgpd").load("lgpd.html");
+            //Carrega o modal
+            $('.modal').modal();
+            //Carrega o select (opções do form)
+            $('select').formSelect();
+            //Carrega o footer dentro da div
+            $(".footer").load("footer.html");
+        });
+
+        $('#arquivo').change(function () {
+            var file = $('#arquivo')[0].files[0].name;
+            $(this).prev('label').text(file);
+        });
+    </script>
+</body>
+
+</html>

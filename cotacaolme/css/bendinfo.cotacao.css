@@ -1,0 +1,34 @@
+	body{ margin: 0 auto; }
+	.body-outer{ text-align: center; background-color: #FAFAFA; width:100%; display:inline-block; }
+	.body-inner{ margin:0 auto; min-width:800px; width:70%; background-color: #FFFFFF; display:inline-block; margin-bottom: 30px; }
+
+	.divFilters { width:100%; background-color: #EFEFEF; }
+	.negative { color: Red; }
+	.positive { color: Blue; }
+	.up { content: url('./up.png'); }
+	.down { content: url('./down.png'); }
+
+	.divStatus  { float:left; width:250px; padding-right: 15px; }
+	#tFechamento{}
+	table { border:1px solid black; }
+	#tFechamento .tr-fech th { background-color: #666666; color: #FFFFFF; border-right: 1px solid #DDDDDD; }
+	#tFechamento .tr-line td.odd { background-color: #EFEFEF; }
+	#tFechamento .tr-line td.even { background-color: #EFEFEF; }
+
+	.metal{ float:left; padding: 4px; margin-right:7px; background-color: #FFFFFF; cursor:pointer; font-size:10pt; font-weight:bold; }
+	.active{ background-color: Green; color: #FFFFFF; }
+	.divGraph { width:650px; xheight:200px; border:1px solid #555555; float:left;}
+	.graph-header{ background-color: #DFDFDF; height:25px;}
+	.graph-body{ padding: 10px; xheight: 300px; }
+	.myChart{ width:300px; height:200px; }
+	.tr-line.even td.selected{ font-weight: bold; background-color: #CCEECC!important; }
+	.tr-line.odd td.selected{ font-weight: bold; background-color: #EEFFEE!important; }
+
+	.tr-header, .tr-header th { background-color: #555555; color: #FFFFFF;  padding: 7px; font-size: 9pt; border-right:1px solid #DDDDDD; }
+	.tr-line td{ border-right:1px solid #666666; text-align: right; padding-right: 25px!important; }
+	.tr-line, .tr-line.even td { background-color: #F5F5F5; color: #000000; padding: 7px;  font-size: 9pt;  }
+	.tr-line, .tr-line.odd td { background-color: #FFFFFF; color: #000000;  padding: 7px; font-size: 9pt; }
+	.tr-week-avg-line, .tr-week-avg-line td { background-color: #559955; color: #FFFFFF; padding: 7px; font-size: 9pt; } 
+	.tr-month-avg-line, .tr-month-avg-line td { background-color: #11BB11; color: #FFFFFF; padding: 7px; font-size: 9pt; }
+	#tCotacoes{ width:100%; } 
+	.divTable{ width:100%; float:left; }

@@ -1,0 +1,48 @@
+.fundo-lgpd {
+padding: 10px;
+position: fixed;
+bottom: 0%;
+width: 100%;
+background-color: rgba(20, 20, 20, 0.98);
+color: white;
+z-index: 150;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.fundo-lgpd p {
+    padding-right: 30px;
+}
+
+.fundo-lgpd a {
+    color: white;
+    text-decoration: underline;
+}
+
+.fundo-lgpd button {
+    padding: 10px 25px;
+    margin: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.fundo-lgpd button:hover{
+    background-color: rgb(121, 120, 120);
+}
+
+@media (max-width: 900px) {
+    .fundo-lgpd {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 15000000;
+    }
+    .fundo-lgpd p{
+        width: 90%;
+        padding: 0%;
+    }
+    #btn-concordar{
+        width: 60%;
+        margin-top: 15px;
+    }
+}

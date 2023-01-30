@@ -1,0 +1,80 @@
+/*========== ESTILIZAÇÃO DA PÁGINA DE POLÍTICA ==========*/
+.conteudo-politica {
+    margin-top: 130px;
+    max-width: 55%;
+    margin-left: 22.5%;
+    margin-bottom: 5%;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'breelight';
+}
+
+strong {
+    font-weight: 600;
+}
+
+p,
+li {
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+}
+
+.btn-politica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn-politica a {
+    text-transform: uppercase;
+    background-color: var(--cinza);
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.btn-politica a:hover {
+    background-color: gray;
+}
+
+#link-pdf {
+    border-radius: 100px;
+    border: 1px solid var(--azul-claro);
+    padding: 10px 16px;
+    color: var(--azul-claro);
+    font-weight: 500;
+    margin: 20px;
+    background-color: #FFF;
+}
+
+#link-pdf:hover {
+    background-color: var(--azul-claro);
+    color: #FAFAFA;
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 600px) {
+    .conteudo-politica {
+        margin-left: 10%;
+        max-width: 80%;
+    }
+
+    .btn-politica {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

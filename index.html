@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Nós, da Yvy Reciclagem, reconhecemos o nosso papel e responsabilidade como um elo estratégico no desenvolvimento de processos produtivos sustentáveis.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>Yvy Reciclagem – Soluções Integradas para resíduos industriais</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!--Import Font Awesome-->
+  <script src="https://kit.fontawesome.com/876f80b0f5.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/blog.css" rel="stylesheet">
+
+  <!--Import CSS-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/global.css" />
+  <link type="text/css" rel="stylesheet" href="css/topbar.css" />
+  <link type="text/css" rel="stylesheet" href="css/certificados.css" />
+  <link type="text/css" rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/home.css">
+  
+  <!-- GOOGLE FONTS
+          font-family: 'Bree Serif', serif; Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500
+          font-family: 'Open Sans', sans-serif;
+    -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ADOPT -->
+  <meta name="adopt-website-id" content="6c611909-8658-4cb4-8681-6f4e0ac88171" />
+  <script src="//tag.goadopt.io/injector.js?website_code=6c611909-8658-4cb4-8681-6f4e0ac88171" class="adopt-injector"></script>
+  <script>window.adoptHideAfterConsent = true;</script>
+  
+</head>
+
+<body>
+  <!--Div que armazena o cabeçalho-->
+  <div class="header"></div>
+
+  <!--Div que armazena o cabeçalho-->
+  <div class="whats"></div>
+  
+  <!--Primeira parte do index, com fundos de materiais-->
+  <div class="fundo-inicio">
+    <div class="conteudo-inicio">
+      <p class="titulo-amarelo">Soluções Integradas de Reciclagem</p>
+      <p class="texto-inicio">Criamos e oferecemos soluções para integrar a geração de resíduos com o seu retorno aos
+        processos produtivos.</p>
+    </div>
+  </div>
+  <!--Parte com fundo amarelo(Cotação LME)-->
+  <div class="fundo-amarelo row">
+    <div class="titulo-cotacao col s12">Cotação LME</div>
+    <div class="col m2 l3 hide-on-small-only"></div>
+    <div class="col s6 m4 l3  esquerda-amarelo">
+      <div class="conteudo-esquerda">
+        <select class="browser-default select-lme" id="appCodigoMetal">
+          <option value="">[Selecione]</option>
+          <option value="AL">Alumínio</option>
+          <option value="CU">Cobre</option>
+          <option value="NI">Níquel</option>
+          <option value="PB">Chumbo</option>
+          <option value="TN">Estanho</option>
+          <option value="ZI">Zinco</option>
+        </select>
+        <p class="weight-maior c1">US 1,00 = R$<span id="appDolar"></span></p>
+        <p class="c2">Fechamento Ptax D-1 <span style="display:none;" id="appDate">xx/xx/xxxx</span></p>
+      </div>
+    </div>
+    <div class="col s6 direita-amarelo">
+      <p class="fonte-azul c1">US$ <span id="appMetalDolar"></span></p>
+      <p class="fonte-azul c1">R$ <span id="appMetalReal"></span></p>
+      <p class="c2">Em <span id="appDate2"></span></p>
+    </div>
+    <!--Parte da parceria estratégica-->
+  </div>
+  <div class="container com-padding">
+    <p class="titulo-azul com-margin">Parceria estratégica para os seus <br>desafios de sustentabilidade</p>
+    <p class="texto-parceria">
+      Reconhecemos o nosso papel e a nossa responsabilidade como um elo estratégico no<br class="hide-on-med-and-down">
+      desenvolvimento de modelos para redução dos impactos do ciclo
+      <br><strong>“extração – produção – consumo – destinação de resíduos”.</strong>
+    </p>
+
+    <img class="diagrama" src="img/diagrama-fornecedores-clientes.png"
+      alt="Diagrama que demoonstra a relação entre a Yvy, os fornecedores e os clientes.">
+  </div>
+  <!-----------Divisoria------------->
+  <img src="img/divisoria-reciclagem-diagrama.png" alt="Divisoria colorida" class="divisoria">
+  <!--Parte que fala sobre as soluções para os clientes e fornecedores-->
+  <div class="container com-padding titulo-solucoes">
+    <p class="titulo-azul com-margin">
+      A reciclagem e a destinação correta são condições <br>para processos produtivos sustentáveis
+    </p>
+  </div>
+  <div class="container com-padding solucoes">
+
+
+    <div class="imagens-circulares-div">
+      <img src="img/img-circular1.png" alt="Img circular das soluções para fornecedores." class="imagens-circulares">
+      <img src="img/solucoes1.png" alt="Soluções para fornecedores" class="solucoes-titulo">
+      <a type="button" class="botao-solucoes" href="fornecedores">SAIBA MAIS</a>
+
+    </div>
+    <div class="imagens-circulares-div">
+      <img src="img/img-circular2.png" alt="Img circular das soluções para clientes." class="imagens-circulares">
+      <img src="img/solucoes2.png" alt="Soluções para clientes" class="solucoes-titulo">
+      <a type="button" class="botao-solucoes" href="clientes">SAIBA MAIS</a>
+    </div>
+  </div>
+  <div class="fundo-azul">
+    <p class="txt-fundo-azul">Somos orientados pela busca contínua de novas tecnologias, processos e habilidades que
+      geram valor para todo o nosso ecossistema de negócios.</p>
+  </div>
+  <!------------------Blog------------------>
+  <div class="blog container row">
+    <div id="blog-all-content">
+      <div id="tempgrid">
+        <div id="blog-home">
+          <div class="blogposts">
+
+            <div class="others-posts">
+              <div style="margin: 40px 0 20px 0;" class="titulo-azul s12">Últimas notícias</div>
+              <div class="col s12 m12 l4 noticia">
+
+                <div class="img">
+                  <a href="" id="link0">
+                    <img id="img0" alt="Imagem da primeira notícia"
+                     
+                      loading="lazy">
+                  </a>
+                </div>
+                <p class="title titulo-azul titulo-blog" id="titulo0"></p>
+               <p class="shortdesc texto-blog" id="texto0">Você provavelmente já deve ter ouvido
+                  falar sobre economia circular. Talvez não pelo termo, mas com certeza
+                  ouviu algo a respeito de pautas que englobam esse conceito, como:
+                  reciclagem, logística reversa, etc. Confira nosso blog e entenda o que é
+                  economia circular, suas vantagens e veja porque empresas do mundo
+                  inteiro estão migrando para esse formato de produção.</p>
+                <a id="link00"
+                  class="saiba-mais-blog">saiba mais</a>
+              </div>
+
+
+              <div class="col s12 m12 l4 noticia">
+                <div class="img">
+                  <a href="" id="link1">
+                    <img id="img1" alt="Imagem da segunda notícia"
+                     
+                      >
+                  </a>
+                </div>
+                <p class="title titulo-azul titulo-blog" id="titulo1"></p>
+                <p class="shortdesc texto-blog" id="texto1">A sustentabilidade é também uma fonte
+                  de inspiração poderosíssima para inovações que buscam o equilíbrio de
+                  variáveis ambientais, sociais e econômicas. Se nos desafiarmos a criar a
+                  partir da compreensão da interdependência entre essas três variáveis já
+                  estaremos, de cara, nos descolando do modelo que nos trouxe até aqui,
+                  que privilegiou o econômico ignorando os impactos ambientais e as
+                  distorções sociais geradas para produzir, comercializar e distribuir
+                  bens e serviços.
+
+                  &nbsp;</p>
+                <a id="link11"
+                  class="saiba-mais-blog">saiba mais</a>
+              </div>
+
+              <div class="col s12 m12 l4 noticia">
+                <div class="img">
+                  <a href="" id="link2">
+                    <img id="img2" alt="Imagem da terceira notícia"
+                      
+                      loading="lazy"
+                      >
+                  </a>
+                </div>
+                <p class="title titulo-azul titulo-blog" id="titulo2"></p>
+                <p class="shortdesc texto-blog" id="texto2">Reconhecemos a importância dos meios
+                  digitais na disseminação de ideias e propostas práticas que inspirem
+                  comportamentos cada vez mais sustentáveis na sociedade.</p>
+                <a id="link22" class="saiba-mais-blog">saiba
+                  mais</a>
+              </div>
+              </li>
+              </ul>
+            </div>
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!------------Divisoria 2------------>
+  <img src="img/divisoria-reciclagem-diagrama.png" alt="Divisoria colorida" class="divisoria">
+  <div class="container com-padding visao-geral">
+    <p class="titulo-azul com-margin">Uma visão geral do que oferecemos</p>
+    <img src="img/visao-geral-index.png" alt="Imagem da visão geral" class="img-visao-geral">
+  </div>
+  <!------------Divisoria 3------------>
+  <img src="img/divisoria-reciclagem-diagrama.png" alt="Divisoria colorida" class="divisoria">
+
+
+  <div class="insta">
+
+    <i class="fab fa-instagram icone-insta"></i>
+    <h3 class="seguir-yvy-instagram">@yvyreciclagem</h3>
+
+    <!-- LightWidget WIDGET -->
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+    <iframe src="https://cdn.lightwidget.com/widgets/2b2df98f62d95d329c5d782a83f1f732.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;">
+    </iframe>
+
+
+    <!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-df8981c2-b51b-4672-8fdf-3108529890a6"></div>-->
+
+    <div style="height: 20px"></div>
+
+    <div class="centralizado">
+      <a href="https://www.instagram.com/yvyreciclagem/" target="_blank" rel="noopener noreferrer"
+        class="seguir-insta">
+        <i class="fab fa-instagram"></i>
+        Seguir no Instagram
+      </a>
+    </div>
+
+  </div>
+
+  <style>
+    .emoji{
+      display: none;
+    }
+    .centralizado {
+      display: flex;
+      justify-content: center;
+    }
+
+    iframe {
+      margin-bottom: 40px;
+    }
+
+    .insta {
+      max-width: 60%;
+      margin: 5% 20%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icone-insta {
+      color: rgb(7, 101, 180);
+      font-size: 60px;
+    }
+
+    .seguir-yvy-instagram {
+      color: rgb(7, 101, 180);
+      font-family: "breelight";
+      font-size: 36px;
+      margin: 5px 0;
+    }
+
+    .seguir-insta {
+      background-color: #3C8FD5;
+      color: white;
+      padding: 6px 16px;
+      border-radius: 4px;
+      font-weight: 400;
+      transition: .7s ease;
+    }
+
+    .seguir-insta:hover {
+      background-color: #055da5;
+    }
+
+    @media (max-width: 900px) {
+      .insta {
+        max-width: 90%;
+        margin: 5%;
+      }
+
+      
+    .seguir-yvy-instagram {
+      font-size: 30px;
+      margin: 25px 0 15px 0;
+    }
+
+      .icone-insta {
+        font-size: 48px;
+        margin-bottom: -20px;
+      }
+      
+    }
+  </style>
+
+</section>
+
+<!------------Divisoria 4------------>
+<img src="img/divisoria-reciclagem-diagrama.png" alt="Divisoria colorida" class="divisoria">
+
+
+  <div class="certificacoes"></div>
+
+  <div class="footer"></div>
+  <div style="display:none">
+    <form name="frmFilter" id="frmFilter">
+      <input type="hidden" name="dateFrom" id="dateFrom" value=""/>
+      <input type="hidden" name="dateTo" id="dateTo" value=""/>
+      <input type="hidden" name="codigoMetal"  id="codigoMetal" value="AL"/>
+    </form>
+    <form name="frmComp" id="frmComp">
+      <input type="hidden" name="dateCompFrom" id="dateCompFrom" value=""/>
+      <input type="hidden" name="dateCompTo" id="dateCompTo" value=""/>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/efeito-menu.js"></script>
+<script src="js/blog-get.js"></script>
+
+<script>
+jQuery(document).ready(function () {
+  //Gera fundos aleatórios no carregamento
+  jQuery(".fundo-inicio").css("background-image",
+    "url(img/fundo" + parseInt(Math.random() * 6 + 1) + "-index.jpg)");
+  //Carrega o cabeçalho dentro da div
+  jQuery(".header").load("header.html");
+  //Carrega o whatsapp dentro da div
+  jQuery(".whats").load("whats.html");
+  //Carrega o formulário LGPD dentro da div
+  jQuery(".lgpd").load("lgpd.html");
+  //Carrega os certificados dentro da div
+  jQuery(".certificacoes").load("certificacoes.html");
+  //Carrega o footer dentro da div
+  jQuery(".footer").load("footer.html");
+});
+</script>
+
+  <!--Js do LME:-->
+   <script async="" src="./index_files/afcd3abb6ab32326f519902ba.js.baixados"></script>
+  <script type="text/javascript" src="./index_files/webfont.js.baixados"></script>
+  <script type="application/ld+json" class="yoast-schema-graph">
+    {
+      "@context": "https://schema.org",
+      "@graph": [{
+        "@type": "Organization",
+        "@id": "https://www.yvyreciclagem.com.br/#organization",
+        "name": "Yvy Reciclagem",
+        "url": "https://www.yvyreciclagem.com.br/",
+        "sameAs": [],
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.yvyreciclagem.com.br/#logo",
+          "inLanguage": "pt-BR",
+          "url": "https://www.yvyreciclagem.com.br/wp-content/uploads/2018/08/logo-yvy-color.png",
+          "width": 86,
+          "height": 50,
+          "caption": "Yvy Reciclagem"
+        },
+        "image": {
+          "@id": "https://www.yvyreciclagem.com.br/#logo"
+        }
+      }, {
+        "@type": "WebSite",
+        "@id": "https://www.yvyreciclagem.com.br/#website",
+        "url": "https://www.yvyreciclagem.com.br/",
+        "name": "Yvy Reciclagem",
+        "description": "Solu\u00e7\u00f5es Integradas de Reciclagem",
+        "publisher": {
+          "@id": "https://www.yvyreciclagem.com.br/#organization"
+        },
+        "potentialAction": [{
+          "@type": "SearchAction",
+          "target": "https://www.yvyreciclagem.com.br/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }],
+        "inLanguage": "pt-BR"
+      }, {
+        "@type": "WebPage",
+        "@id": "https://www.yvyreciclagem.com.br/#webpage",
+        "url": "https://www.yvyreciclagem.com.br/",
+        "name": "Yvy Reciclagem &ndash; Solu\u00e7\u00f5es Integradas para res\u00edduos industriais",
+        "isPartOf": {
+          "@id": "https://www.yvyreciclagem.com.br/#website"
+        },
+        "about": {
+          "@id": "https://www.yvyreciclagem.com.br/#organization"
+        },
+        "datePublished": "2018-08-13T19:09:30+00:00",
+        "dateModified": "2019-04-23T18:03:05+00:00",
+        "description": "N\u00f3s, da Yvy Reciclagem, reconhecemos o nosso papel e responsabilidade como um elo estrat\u00e9gico no desenvolvimento de processos produtivos sustent\u00e1veis.",
+        "inLanguage": "pt-BR",
+        "potentialAction": [{
+          "@type": "ReadAction",
+          "target": ["https://www.yvyreciclagem.com.br/"]
+        }]
+      }]
+    }
+  </script>
+  <script type="text/javascript">
+    window._wpemojiSettings = {
+      "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+      "ext": ".png",
+      "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+      "svgExt": ".svg",
+      "source": {
+        "concatemoji": "https:\/\/www.yvyreciclagem.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"
+      }
+    };
+    ! function (e, a, t) {
+      var n, r, o, i = a.createElement("canvas"),
+        p = i.getContext && i.getContext("2d");
+
+      function s(e, t) {
+        var a = String.fromCharCode;
+        p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+        e = i.toDataURL();
+        return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+      }
+
+      function c(e) {
+        var t = a.createElement("script");
+        t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+      }
+      for (o = Array("flag", "emoji"), t.supports = {
+          everything: !0,
+          everythingExceptFlag: !0
+        }, r = 0; r < o.length; r++) t.supports[o[r]] = function (e) {
+        if (!p || !p.fillText) return !1;
+        switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+          case "flag":
+            return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826,
+              55356, 56819
+            ], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421,
+              56128, 56430, 56128, 56423, 56128, 56447
+            ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430,
+              8203, 56128, 56423, 8203, 56128, 56447
+            ]);
+          case "emoji":
+            return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212])
+        }
+        return !1
+      }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
+        .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+      t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+        .readyCallback = function () {
+          t.DOMReady = !0
+        }, t.supports.everything || (n = function () {
+          t.readyCallback()
+        }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (
+          e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
+            "complete" === a.readyState && t.readyCallback()
+          })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n
+          .wpemoji)))
+    }(window, document, window._wpemojiSettings);
+  </script>
+  <script src="./index_files/wp-emoji-release.min.js.baixados" type="text/javascript" defer=""></script>
+  <script async="" src="./index_files/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-137998303-1');
+  </script>
+  <script id="mcjs">
+    ! function (c, h, i, m, p) {
+      m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+    }(document, "script",
+      "https://chimpstatic.com/mcjs-connected/js/users/9fb1ccc91fc48bbb036f5d8e3/afcd3abb6ab32326f519902ba.js");
+  </script>
+
+  <script src="./index_files/bendinfo.ws.js.baixados" type="text/javascript"></script>
+  <script src="./index_files/bendinfo.cotacao.Yvy.js.baixados" type="text/javascript"></script>
+  <script type="text/javascript" id="ct_code_block_js_95"></script>
+  <style type="text/css" id="ct_code_block_css_95"></style>
+  <script type="text/javascript" id="ct_code_block_js_87"></script>
+  <style type="text/css" id="ct_code_block_css_87"></style>
+  <script type="text/javascript" id="ct_code_block_js_94"></script>
+  <style type="text/css" id="ct_code_block_css_94"></style>
+  <script type="text/javascript" id="ct_code_block_js_91"></script>
+  <style type="text/css" id="ct_code_block_css_91"></style>
+  <script type="text/javascript" id="ct_code_block_js_5"></script>
+  <style type="text/css" id="ct_code_block_css_5"></style>
+  <script type="text/javascript" id="ct_code_block_js_4"></script>
+  <style type="text/css" id="ct_code_block_css_4"></style>
+  <script type="text/javascript" id="ct_code_block_js_2"></script>
+  <style type="text/css" id="ct_code_block_css_2"></style>
+  
+  <script src="/cotacaolme/js/bendinfo.ws.js" type="text/javascript"></script>
+  <script src="/cotacaolme/js/bendinfo.cotacao.Yvy.js" type="text/javascript"></script>
+  <script  type="text/javascript">
+       function updateAppLME() {
+           console.log("---------updateAppLME");
+           document.getElementById("codigoMetal").value=document.getElementById("appCodigoMetal").value;
+           if(gret && gret.aLastDataCotacao) {
+             document.getElementById("appDolar").innerText=formatNumber(getCotacaoMoeda("USD",gret.aLastDataCotacao["0"].lastDataCotacao,"Last").cotacaoVenda,4);
+             document.getElementById("appDate").innerText=formatDate(getCotacaoMoeda("USD",gret.aLastDataCotacao["0"].lastDataCotacao,"Last").dataCotacao);
+             document.getElementById("appDate2").innerText=formatDate(getCotacaoMoeda("USD",gret.aLastDataCotacao["0"].lastDataCotacao,"Last").dataCotacao);
+             if(document.getElementById("codigoMetal").value=="") {
+               document.getElementById("appMetalDolar").innerText=formatNumber(0,2);
+               document.getElementById("appMetalReal").innerText=formatNumber(0,2);
+             } else {
+             document.getElementById("appMetalDolar").innerText=formatNumber(
+               getCotacaoMetal(document.getElementById("appCodigoMetal").value,
+               gret.aLastDataCotacao["0"].lastDataCotacao,"Last").cotacaoDolar,2);
+             document.getElementById("appMetalReal").innerText=formatNumber(
+               getCotacaoMetal(document.getElementById("appCodigoMetal").value,
+               gret.aLastDataCotacao["0"].lastDataCotacao,"Last").cotacaoDolar *
+               getCotacaoMoeda("USD",gret.aLastDataCotacao["0"].lastDataCotacao,"Last").cotacaoVenda,2);
+             }
+           }
+        }
+        jQuery(document).ready(function(){ 
+           console.log("document.ready"); 
+           document.getElementById("appCodigoMetal").onchange=updateAppLME;
+           blCalculateRows=false;
+           blDoGraph=false;
+           blBuildLastCotacaoBoard=false;
+           blUpdateAppLME=true;
+           getData();
+        });
+  </script>
+  
+</body>
+
+</html>

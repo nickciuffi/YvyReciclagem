@@ -1,0 +1,62 @@
+.flip-container {
+    width: 287px;
+    height: 385px;
+    perspective: 1000px;
+    padding: 20px;
+}
+
+.flipper {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(-180deg);
+    /* se quiser uma animação na vertical,
+      troque por rotateX(180deg)
+      */
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E66A1F;
+    padding: 10px;
+    /*border-radius: 8px;*/
+}
+
+.back h3 {
+    font-size: 18px;
+    font-family: "Bree serif";
+    color: #FFF;
+    line-height: 23.4px;
+}
+
+#cd1 {
+    margin-top: 30%;
+}
+
+#cd2, #cd3, #cd4, #cd6, #cd8 {
+    margin-top: 45%;
+}
+
+#cd5, #cd7 {
+    margin-top: 25%;
+}
+
+.back {
+    transform: rotateY(-180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}

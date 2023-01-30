@@ -1,0 +1,400 @@
+@charset "utf-8";
+/* CSS Blog */
+body, html{margin:0px;width:100%;height:100%;}
+html{ }
+.ct-inner-content {
+    padding-top: 86px !important;
+}
+
+#myApp{
+    width: 100%;
+    overflow: hidden;
+}
+/**header footer redes sociais**/
+
+#menu-item-811{}
+#menu-item-812{}
+#menu-item-813{}
+#menu-item-811 a{display: inline-block;padding: 0px !important;margin: 20px 5px 0px 5px;}
+
+#menu-item-811 a b, #menu-item-812 a, #menu-item-813 a {background-image:url(https://www.yvyreciclagem.com.br/blog/icon_redes-header.png);background-repeat:no-repeat;width: 21px;height: 21px;display: inline-block;padding: 0px !important;margin: 20px 7px 0px 7px;}
+#menu-item-811 a span{background-position:0px 0px;border-left: 2px solid #C9C9C9;float: left;margin: 0px 5px 0px 0px;}
+
+#menu-item-811 a b{background-position:0px -21px;float: left;padding: 0px !important;margin: 0px;}
+#menu-item-812 a{background-position:-21px -21px;}
+#menu-item-813 a{background-position:-42px -21px;}
+
+
+#menu-item-811 a:hover b{background-position:0px -42px;}
+#menu-item-812 a:hover{background-position:-21px -42px;}
+#menu-item-813 a:hover{background-position:-42px -42px;}
+
+
+#footer-redes{
+    width: 111px;
+    margin: 0px auto;
+}
+#footer-redes ul{
+    list-style: none;
+    padding: 0px;
+    float: left;
+    margin: 25px 0px;
+    width: 100%;
+}
+#footer-redes ul li{
+    float: left;
+    margin: 0px 8px;
+}
+#footer-redes ul li a{background-image:url(https://www.yvyreciclagem.com.br/blog/icon_redes-header.png);background-repeat:no-repeat;width: 21px;height: 21px;display: inline-block;text-indent: -9999px;}
+#footer-redes ul li a.fb{background-position:0px 0px;}
+#footer-redes ul li a.insta{background-position:-21px 0px;}
+#footer-redes ul li a.linkedin{background-position:-42px 0px;}
+
+
+
+/**fim header footer redes sociais**/
+
+.ab-below-bar.gray-blog{
+	background-color: #0765B4 !important;
+} 
+
+#menu-item-807.selected, #menu-item-807 a:hover, #menu-item-807.selected a{color: #0765B4;}
+
+#blog-header{
+    margin-bottom: 50px;
+}
+
+#blog-header img{ max-width:100%;}
+#blog-header img.header-mobile{ display:block;}
+#blog-header img.header-desktop{ display:none;}
+
+#tempgrid{width:94%;margin:0px 3%;}
+
+/**blog global**/
+
+#blog div.blogsidebar p.tit, #blog-master div.blogsidebar p.tit, #blog-master div.blogsidebar h2{
+	font-family: 'Bree Serif';
+	font-size: 20px;
+	font-weight: 400;
+	color: #0765B4;
+	margin: 0px;
+	border-bottom: 1px solid #0765B4;
+}
+
+
+
+p.date{
+	color: #0765B4;
+	background-image: url(https://www.yvyreciclagem.com.br/wp-content/uploads/2019/08/icon-data.png);
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 21px;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 5px 0px;
+	font-family: 'Open Sans';
+}
+/**fim blog global**/
+/**pagina interna blog**/
+
+#blog-all-content{ float:left; width:100%; background:#FFF;}
+#blog, #blog-master{
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    margin: 0px 0px 50px 0px;
+    }
+#blog{margin:50px 0px;}
+
+    
+#blog div.blogpost img{ max-width:100%;}	
+	
+#blog div.blogpost, #blog-master div.blogposts{ 
+	padding:0px;
+	width: 100%;
+	
+    float: left;}
+	#blog div.blogsidebar, #blog-master div.blogsidebar{
+    float: left;
+    margin: 0px;
+    width: 100%;
+    }
+
+div.blogpost a{color: #0765B4;}
+
+
+#blog h1, #blog h2, #blog h3, #blog h4, #blog h5, #blog h6{
+    color: #0765B4;
+    font-size: 24px;
+    }
+	
+#blog h1.destak, #blog h2.destak, #blog h3.destak, #blog h4.destak, #blog h5.destak, #blog h6.destak{    width: 70%;
+    border-left: 1px solid #0765B4;;
+    padding: 0px 0px 0px 20px;}	
+#blog div.blogpost b{font-weight: 400; color: #0765B4;}
+#blog div.blogpost p{}
+#blog div.blogpost ul{    list-style: none;
+    padding: 0px 0px 0px 15px;}
+#blog div.blogpost li{}
+
+/**fim pagina interna blog**/
+
+/**pagina blog**/
+#blog-master{}
+#blog-master h1, #blog-master h2, #blog-master a, #blog-master div.others-posts ul li p.title{color: #0765B4;}
+
+#blog-master h1{ font-size:2em;}
+#blog-master h2{ font-size:1.5em;}
+#blog-master a:hover{ text-decoration:underline;}
+
+
+#blog-master p.shortdesc{
+	font-size: 1em;
+    line-height: 150%;
+}
+
+
+
+#blog-master img{    
+	width: 100% !important;
+    height: auto !important;
+}
+
+
+
+#blog-master div.main-post{float: left;
+    width: 100%;
+    margin: 0px 0px 30px 0px; font-size:15px;}
+#blog-master div.main-post h1{}
+#blog-master div.main-post div.img{margin: 15px 0px 0px 0px;}
+
+#blog-master div.others-posts{font-size:14px;    margin: 30px 0px 0px 0px;}
+
+#blog-master div.others-posts ul{ list-style:none; padding:0px;}
+#blog-master div.others-posts ul li{
+    width: 48%;
+}
+#blog-master div.others-posts ul li:nth-child(even){    
+    margin: 0% 0px 5% 0px;
+    float: right;
+	clear:none;}
+#blog-master div.others-posts ul li:nth-child(odd){  
+    margin: 0% 1% 5% 0px;
+    float: left;
+	clear:both;  }
+#blog-master div.others-posts ul li div.post{}
+#blog-master div.others-posts ul li div.img{}
+
+#blog-master div.others-posts ul li p.title{    font-size: 18px;
+    margin: 0px;
+    font-family: 'Bree Serif';
+    }
+
+
+/**fim pagina blog**/
+/**blog homepage**/
+#blog-home{ margin:50px 0px 0px 0px;}
+#blog-home div.others-posts ul li div.img img{ max-width:100% !important; height:auto !important;}
+
+#blog-home div.others-posts h4{color: #0765B4;text-align:center;}
+#blog-home div.others-posts ul{ list-style:none; padding:0px;}
+#blog-home div.others-posts ul li{width: 90%;float: left;margin: 5%;}
+#blog-home div.others-posts ul li div.post{}
+#blog-home div.others-posts ul li div.img{}
+#blog-home div.others-posts ul li a{
+    color: #0765B4;
+    text-decoration: underline;
+    font-size: 14px;
+    }
+#blog-home div.others-posts ul li p.title{    font-size: 18px;color:#0765B4;
+    margin: 0px;
+    font-family: 'Bree Serif';
+    }
+
+#blog-home div.others-posts ul li p.shortdesc{     font-size: 14px;
+    line-height: 20px;}
+
+/**fim blog homepage**/
+
+
+
+
+#blog_news{
+    float: left;
+    width: 100%;
+    margin: 0px 0px;
+}
+#formNews{}
+#formNews div{
+    float: left;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+#mce-EMAIL, #mce-FNAME{
+    border: 1px solid #0765B4;
+    border-radius: 5px;
+    padding: 7px 2%;
+    width: 95%;
+    margin:0px 0px 10px 0px;
+}
+#mc-embedded-subscribe{
+
+	background: #0765B4;
+    border: 1px solid #0765B4;
+
+    color: #FFF;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#mc-embedded-subscribe:hover{
+    background: #27aae1;
+    border: 1px solid #27aae1;
+    }
+
+#mce-responses{ padding:10px; margin:10px 0px;}
+#mc_embed_signup div.mce_inline_error{font-weight: 400 !important;background-color: #F00 !important;}
+
+#blog_instagram{
+    float: left;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+#instafetch{float:left;width:100%;margin: 20px 0px;}
+#blog_instagram a {  display:block;}
+#blog_instagram article{width: 48%;float: left;margin: 1%;}
+#blog_instagram figure{width:100%;margin: 0px;}
+#blog_instagram img{ max-width:100%;}
+
+#blog_siga{
+    float: left;
+    width: 100%;
+}
+#blog_siga ul{
+    padding: 0px;
+    float: left;
+    margin: 20px 0px;
+}
+#blog_siga ul li{
+    float: left;
+    margin: 0px 20px 0px 0px;
+    list-style-type: none;
+}
+#blog_siga ul li a{display:inline-block;width:25px;height:25px;background-image:url(https://www.yvyreciclagem.com.br/blog/icon_redes.png);text-indent: -9999px;}
+#blog_siga ul li a.instagram{ background-position:0px 0px;}
+#blog_siga ul li a.facebook{ background-position:-25px 0px;}
+#blog_siga ul li a.linkedin{ background-position:-50px 0px;}
+#blog_siga ul li a.instagram:hover{ background-position:0px -25px;}
+#blog_siga ul li a.facebook:hover{ background-position:-25px -25px;}
+#blog_siga ul li a.linkedin:hover{ background-position:-50px -25px;}
+
+@media (min-width: 575px){
+	#blog-home div.others-posts ul li{width: 31%;float: left;margin: 0px 1%;}
+}
+
+@media (min-width: 992px){
+	#tempgrid{width:960px;margin:0px auto;}
+	
+	
+#blog-header img.header-mobile{display:none;}
+#blog-header img.header-desktop{ display:block; }
+	
+	#blog div.blogpost, #blog-master div.blogposts{
+
+    width: 70%;
+    border-right: 1px solid #878787;
+    padding: 0px 3% 0px 0px;
+    float: left;
+    }
+	#blog div.blogsidebar, #blog-master div.blogsidebar{
+    width: 23%;
+    float: left;
+    margin: 0px 0px 0px 3%;
+    }
+
+
+		
+	#blog-master div.others-posts ul li{
+		margin: 20px 1%;
+		float: left;
+		clear:both;
+		width: 48%;
+	}
+	
+	
+	
+}
+
+
+	#_header-127-90{
+    height: 80px;
+    border: none;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+	#_header_row-128-90{
+}
+	#_header_row-128-90 div.oxy-header-container{
+    padding: 0px;
+    display: block;
+    margin: 10px 3%;
+    height: 60px;
+    max-width: unset;
+    flex-wrap: unset;
+    justify-content: unset;
+    align-items: unset;
+    width: 94%;
+}
+	#_header_center-130-90{
+    display: none;
+}
+	#_header_left-129-90{float: left;display: block;align-items: unset;position: relative;margin: 5px 0px;}
+	#_header_right-131-90{
+    float: right;
+    justify-content: unset;
+    display: block;
+    align-items: unset;
+    position: relative;
+}
+@media (min-width: 1121px){
+	#_header-127-90{}
+	#_header_row-128-90{}
+	#_header_row-128-90 div.oxy-header-container{
+    width: 1080px;
+    margin: 10px auto;
+}
+	#_header_center-130-90{
+}
+	#_header_left-129-90{}
+	#_header_right-131-90{}
+}
+
+
+
+@media (min-width: 1200px){
+	#tempgrid{
+	width:1140px;
+}
+
+	
+}
+
+@media (max-width: 1120px){
+	#menu-item-811 a{
+    margin: 0px;
+}
+
+#menu-item-811 a b, #menu-item-812 a, #menu-item-813 a {
+    margin: 10px auto;
+    float: none;
+}
+#menu-item-811 a span{
+    display: none;
+}
+}
+

@@ -1,0 +1,17 @@
+
+
+- Carregar dados dos últimos 10 dias [OK]
+- Dólar: se já existente e diferente, sobrescrever
+- Logs: salvar quando alterar linhas ou incluir novas
+
+- Quadro Status Fechamento: Comparar cotação com data anterior 
+
+- Login: design [Admin: login.php e admin.php e security_check.php ]
+- Cotação metal: design e programação entrada de dados [Admin: cotacao_metal.php]
+- Cotação dólar: design e programação entrada de dados [Admin: cotacao_dolar.php]
+
+- Ajax JSON: retornar dados conforme filtro [OK]
+
+- Agendar cálculo últimos 10 dias (diário? 1 dia? 2x dia? atualiza_ws.php) [OK]
+
+- Baixar Chart.js [OK]

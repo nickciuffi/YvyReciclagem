@@ -1,0 +1,48 @@
+/*Font paga*/
+@font-face {
+    font-family:'breelight';
+    src:url("../fonts/breelight-webfont.ttf");
+}
+
+/*---------------------RESET----------------------*/
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+     background-size: cover;
+     
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/*---------------------PADRÃO DE CORES----------------------*/
+:root {
+    --azul-escuro: rgb(7,101,180);
+    --azul-claro: rgb(39,170,225);
+    --laranja: rgb(230,106,31);
+    --amarelo: rgb(255,203,0);
+    --verde-escuro: rgb(0,129,71);
+    --verde-claro: rgb(161,199,23);
+    --preto: #000;
+    --cinza: #8A8A8A;
+    --branco: #fff;
+    --fonte-bree-lt: 'breelight';
+    --fonte-bree: 'Bree serif';
+    --fonte-opens: 'Open Sans', sans serif;
+}
+ 
+

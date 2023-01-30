@@ -1,0 +1,163 @@
+
+/*========== COR DA SELEÇÃO DE TEXTO ==========*/
+::selection {
+    color: white;
+    background-color: var(--laranja);
+}
+
+
+/*========== ESTILIZAÇÃO DA BARRA DE SCROLL ==========*/
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--laranja);
+    border-radius: 20px;
+    border: 2px solid rgb(240, 240, 240);
+}
+
+/*========== ESTILIZAÇÃO DA PÁGINA (MOBILE) ==========*/
+/*--- parte inicial (imagens) ---*/
+.conteudo-fornecedores {
+    margin-top: 80.5px;
+}
+
+.img-titulo {
+    background-image: url(../img/fundo-fornecedores.jpg);
+}
+/*--- estilização do texto ---*/
+.conteudo-fornecedores h1 {
+    font-size: 20px;
+    color: var(--laranja);
+    font-family: "Bree serif";
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+}
+
+.conteudo-fornecedores h2 {
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: "breelight";
+    font-weight: 400;
+    text-align: center;
+    color: #706B66;
+    line-height: 20px;
+    padding: 0 10%;
+}
+
+/*--- estilização dos ícones ---*/
+.icones-la {
+    background-color: #FC8738;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/*--- FLIP CARDS (A estilização está em um arquivo separado) ---*/
+.titulo-portifolio {
+    padding: 20px;
+}
+
+.cont-cards {
+    width: 85%;
+}
+
+/*--- div para entrar em contato ---*/
+.entre-em-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--laranja);
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.entre-em-contato h1 {
+    margin-top: 20px;
+    color: #FFF;
+}
+
+.entre-em-contato h2 {
+    color: #FFF;
+    line-height: 25px;
+}
+
+.entre-em-contato a {
+    background-color: #FFF;
+    padding: 8px 30px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: var(--laranja);
+}
+
+.entre-em-contato a:hover {
+    background-color: #e7e7e7;
+}
+
+/*========== PARA TABLETS ==========*/
+@media (min-width: 600px) {
+
+
+    .conteudo-fornecedores h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .conteudo-fornecedores h2 {
+        padding: 0 20.5%;
+    }
+
+    .icones-la {
+        background: linear-gradient(to right, #FC8738, #FC8E39);
+    }
+
+    .cont-cards {
+        width: 70%;
+    }
+}
+
+/*========== PARA DESKTOPS ==========*/
+@media (min-width: 1000px) {
+    .img-titulo img {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .titulo-inicial {
+        margin-bottom: 55px;
+    }
+
+    .conteudo-fornecedores h1 {
+        padding: 0 27.5% 0 27.5%;
+        line-height: 40px;
+    }
+
+    .cont-cards {
+        width: 1150px;
+    }
+
+    .icones-la {
+        background: linear-gradient(to right, #FC8939, #FEB333);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo-fornecedores h2 {
+        padding: 0 37.5%;
+    }
+}

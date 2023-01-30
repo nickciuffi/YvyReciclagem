@@ -1,0 +1,139 @@
+<!--Cabeçalho para desktop-->
+   
+<!--Div que armazena tudo-->
+<div class="fundo-nav-desk">
+
+  <!--Logo Yvy-->
+  <div class="logo-div">
+    <a href="index"><img src="img/logo-yvy.png" alt="Logo Yvy reciclagem" class="logo-img">
+    </a>
+  </div>
+
+  <!--Div que armazena todos os links e icones-->
+  <div class="row links-nav hide-on-med-and-down">
+    <!--botões do cabeçalho-->
+    <div class="">
+      <a id="azul-escuro" class="link" href="/">Home</a>
+    </div>
+    <div class="">
+      <div class="drop">
+        <span id="azul-claro" class="link dropbtn">Yvy Reciclagem</span>
+        <div class="drop-content">
+          <a href="yvy-reciclagem">Sobre a Yvy</a>
+          <a href="politica-de-relacoes-comerciais">Politica de Relações Comerciais Responsáveis</a>
+          <a href="politica-de-responsabilidade">Politica de Responsabilidade Social Corporativa e Conduta Ética </a>
+          <a href="politica-de-gestao-integrada">Politica de Gestão Integrada</a>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <a id="laranja" class="link" href="fornecedores">Fornecedores + Yvy</a>
+    </div>
+    <div class="">
+      <a id="amarelo" class="link" href="clientes">Clientes + Yvy</a>
+    </div>
+    <div class="">
+      <a id="verde-escuro" class="link" href="contato">Contato</a>
+    </div>
+    <div class="">
+      <a id="verde-claro" class="link" href="cotacao-lme"><img src="img/logo-lme.png" alt="ícone LME" class="icon-lme">Cotação LME</a>
+    </div>
+    <div class=" ">
+      <a id="azul-escuro-blog" class="link blog" target="_blank" href="https://medium.com/yvyreciclagem">Blog</a>
+    </div>
+
+
+    <!--Icones de mídias sociais-->
+    <div class="col icones">
+      <div class="linha-vert"></div>
+      <a class="icon" href="https://www.facebook.com/YvyReciclagem/">
+        <i class="icone-real fab fa-facebook-f"></i>
+      </a>
+    </div>
+    <div class="col icones">
+      <a class="icon instagram-nav" href="https://www.instagram.com/yvyreciclagem/">
+        <i class="icone-real fab fa-instagram fa-lg"></i>
+      </a>
+    </div>
+    <div class="col icones">
+      <a class="icon linked" href="https://www.linkedin.com/company/yvyreciclagem/about/">
+        <i class="icone-real fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <div class="col icones">
+     <a class="icon youtube" href="https://www.youtube.com/channel/UCdtPtZZjEFyw6adAXzgoylA">
+        <i class="icone-real fab fa-youtube"></i>
+      </a>
+    </div>
+  </div>
+
+  <!--Ativador do menu lateral no celular-->
+  <a href="#" data-target="mobile-demo" class="sidenav-trigger botao-sidenav hide-on-large-only">
+    <i class="material-icons">menu</i>
+  </a>
+</div>
+
+<!--Linha que muda de cor-->
+<div class="linha-colorida"></div>
+
+<!-- Menu lateral ativado por botão -->
+
+<div class="sidenav nav-lat" id="mobile-demo">
+  <!--botões do menu lateral-->
+  <div class=" ">
+    <a id="azul-escuro-mob" class="link" href="/">Home</a>
+  </div>
+  <div class=" ">
+    <div class="drop">
+      <span id="azul-claro" class="link dropbtn">Yvy Reciclagem</span>
+      <div class="drop-content">
+        <a href="yvy-reciclagem">Sobre a Yvy</a>
+        <a href="politica-de-relacoes-comerciais">Politica de Relações Comerciais Responsáveis</a>
+        <a href="politica-de-responsabilidade">Politica de Responsabilidade Social Corporativa e Conduta Ética </a>
+        <a href="politica-de-gestao-integrada">Politica de Gestão Integrada</a>
+      </div>
+    </div>
+  </div>
+  <div class=" ">
+    <a id="laranja-mob" class="link" href="fornecedores">Fornecedores + Yvy</a>
+  </div>
+  <div class=" ">
+    <a id="amarelo-mob" class="link" href="clientes">Clientes + Yvy</a>
+  </div>
+  <div class=" ">
+    <a id="verde-escuro-mob" class="link" href="contato">Contato</a>
+  </div>
+  <div class=" ">
+    <a id="verde-claro-mob" class="link" href="cotacao-lme">
+      <img src="img/logo-lme.png" alt="ucone do lme" class="icon-lme">Cotação LME</a>
+    </div>
+  <div class=" ">
+    <a id="azul-escuro" class="link" target="_blank" href="https://medium.com/yvyreciclagem">Blog</a>
+  </div>
+  <!--Icones do menu lateral-->
+  <div class="  icones">
+    <a class="icon face" href="https://www.facebook.com/YvyReciclagem/">
+      <i class="icone-real fab fa-facebook-f"></i>
+    </a>
+      </div>
+  <div class="  icones">
+    <a class="icon instagram-nav" href="https://www.instagram.com/yvyreciclagem/">
+      <i class="icone-real fab fa-instagram fa-lg"></i>
+    </a>
+  </div>
+  <div class="  icones">
+    <a class="icon linked" href="https://www.linkedin.com/company/yvyreciclagem/about/">
+      <i class="icone-real fab fa-linkedin-in"></i>
+    </a>
+  </div>
+</div>
+<!--inclui o código que muda as cores do menu-->
+<script src="js/efeito-menu.js"></script>
+<!--inclui os ícones das redes sociais-->
+<script src="https://kit.fontawesome.com/876f80b0f5.js" crossorigin="anonymous"></script>
+<script>
+  //Ativa o menu lateral quando a página é carregada
+  jQuery(document).ready(function () {
+    jQuery('.sidenav').sidenav();
+  });
+</script>

@@ -1,0 +1,63 @@
+.accordion {
+    width: 100%;
+    max-width: 360px;
+    margin: 5% 0 0 -15%;
+    background: #FFF;
+}
+
+.accordion .link {
+    font-family: "Bree serif";
+    cursor: pointer;
+    display: block;
+    padding: 1px 30px;
+    color: #DD9933;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li i {
+    font-size: 18px;
+    color: #DD9933;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+    font-size: 18px;
+}
+
+li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.submenu {
+    display: none;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+strong, p {
+    font-family: 'breelight';
+    font-size: 14px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+@media (max-width: 1700px) {
+    .accordion {
+        margin: 5% 0 0 0;
+    }
+}
